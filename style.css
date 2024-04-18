@@ -3,7 +3,6 @@
 body{
     margin: 0%;
     padding: 0%;
-    /* background: #001b23; */
     background:
         /* top, transparent black, faked with gradient */ 
         linear-gradient(
@@ -12,7 +11,12 @@ body{
         ),
         /* bottom, image */
         url(./Logo.png);
+        /* color(11,10,31); */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-size:100vw 100vh; /* Makes the background image cover the entire container */
+    /* background-position: center; Centers the background image */
 }
+
 
 .navBar {
     font-family: 'JetBrains Mono', sans-serif;
