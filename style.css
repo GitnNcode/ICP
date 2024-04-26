@@ -98,9 +98,3 @@ body{
         min-width: 196px;
     }
 }
-
-
-.DNA{
-    scale: .5;
-    transform-origin: 90% -10%;
-}
