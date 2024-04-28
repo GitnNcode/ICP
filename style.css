@@ -17,6 +17,9 @@ body{
     /* background-position: center; Centers the background image */
 }
 
+a {
+    text-decoration: none;
+}
 
 .navBar {
     font-family: 'JetBrains Mono', sans-serif;
